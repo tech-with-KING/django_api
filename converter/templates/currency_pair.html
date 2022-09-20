@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DjangoApi</title>
+    {% load static %}
+    <link rel="stylesheet"  type="text/css" href="{% static ’index.html’ %}">
+  </head>
+  <body class="body">
+    <d>
+      <h1 class="heading">Django Rest Api</h1>
+      <p>Django api with postgresql</p>
+      <div>
+	<div class="b_desc">
+	  I have been trying for a long time to get myself a proper resume,
+	  so that i can start looking for jobs .But I have had tough luck
+	  coming up with the best ideas for a proper resume and the painfull
+	  part is getting certifications . That I could use to look for jobs
+	  it’s been a struggle for a long time and sometimes it gets painfully
+	  tiring 
+	</div>
+	<div class="image">
+	  
+	</div>
+	<div>
+	  <form action="/converter/converter/" method="post" autocomplete="off" >
+	  {% csrf_token %}
+	  <input type="text" class="input" name="submit" >
+	  </form>
+	</div>
+      </div>
+    </d>
+  </body>
+</html>
+
