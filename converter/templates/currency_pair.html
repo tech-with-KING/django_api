@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DjangoApi</title>
     {% load static %}
-    <link rel="stylesheet"  type="text/css" href="{% static ’index.html’ %}">
+    <link rel="stylesheet"  type="text/css" href="">
   </head>
   <body class="body">
     <d>
@@ -30,6 +30,7 @@
 	  <form action="/converter/converter/" method="post" autocomplete="off" >
 	  {% csrf_token %}
 	  <input type="text" class="input" name="submit" >
+	  <i>
 	  </form>
 	</div>
       </div>
